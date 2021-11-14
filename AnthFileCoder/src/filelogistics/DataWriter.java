@@ -34,4 +34,13 @@ public class DataWriter {
 			e.printStackTrace();
 		}
 	}
+	
+	public void close() {
+		try {
+			bw.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 }
